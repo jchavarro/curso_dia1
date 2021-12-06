@@ -18,6 +18,10 @@ public class PruebaServicio {
             usuario.setId(usuarios.size());
         }
         usuarios.add(usuario);
+        Usuario usuario1 = Usuario.builder().apellido("chavarro")
+                .nombre("camilo").build();
         return usuario;
+
     }
+
 }
